@@ -61,3 +61,5 @@ select constraint_name, constraint_type, table_name from user_constraints
 alter table pessoa_fisica_endereco add sexo_pessoa_fis varchar2(1) constraint sexo_pessoa_fis_ck check (sexo_pessoa_fis in ('F', 'M', 'I'));
 
 desc pessoa_fisica_endereco;
+SELECT * FROM pessoa_fisica_endereco;
+
